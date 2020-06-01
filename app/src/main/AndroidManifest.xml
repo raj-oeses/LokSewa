@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loksewa">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Civiladbl"></activity>
+        <activity android:name=".Civilnea" />
+        <activity android:name=".Aerosto" />
+        <activity android:name=".Aerooe" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Mechanicalntc" />
+        <activity android:name=".Mechanicalairlines" />
+        <activity android:name=".Mechanicalpsc" />
+        <activity android:name=".Itnbl" />
+        <activity android:name=".Itnrb" />
+        <activity android:name=".Itrbb" />
+        <activity android:name=".Electricalntc" />
+        <activity android:name=".Electricalnea" />
+        <activity android:name=".Comppsc" />
+        <activity android:name=".Compntc" />
+        <activity android:name=".Civilntc" />
+        <activity android:name=".Civilpsc" />
+        <activity android:name=".Electntc" />
+        <activity android:name=".Electntv" />
+        <activity android:name=".Electairlines" />
+        <activity android:name=".IT" />
+        <activity android:name=".Electrical" />
+        <activity android:name=".Computer" />
+        <activity android:name=".Civil" />
+        <activity android:name=".Electronics" />
+        <activity android:name=".Mechanical" />
+        <activity android:name=".Aeronautical" />
+        <activity android:name=".MCQ" />
+        <activity android:name=".LoksewaSyllabus" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

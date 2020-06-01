@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IT">
+    <Button
+        android:id="@+id/itrbb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RBB" />
+    <Button
+        android:id="@+id/itnrb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nrb" />
+    <Button
+        android:id="@+id/itnbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nbl" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoksewaSyllabus">
+
+    <Button
+        style="@style/buttonstyle"
+        android:id="@+id/electronicsengineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronics Engineering" />
+
+    <Button
+        android:id="@+id/CivilEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Civil Engineering"
+        />
+    <Button
+        android:id="@+id/ComputerEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Engineering"
+        />
+    <Button
+        android:id="@+id/ElectricalEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electrical Engineering"
+        />
+    <Button
+        android:id="@+id/ITEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IT Engineering"
+        />
+    <Button
+        android:id="@+id/MechanicalEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mechanical Engineering"
+        />
+    <Button
+        android:id="@+id/AeronauticalEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aeronautical Engineering"
+        />
+
+
+
+
+</LinearLayout>
