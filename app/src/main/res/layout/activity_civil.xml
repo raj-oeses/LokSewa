@@ -9,21 +9,25 @@
     tools:context=".Civil">
 
     <Button
+        style="@style/custombutton"
         android:id="@+id/psc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PSC" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/ntc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="NTC" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/adbl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="adbl" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/nea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

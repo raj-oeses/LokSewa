@@ -7,16 +7,19 @@
     android:orientation="vertical"
     tools:context=".Mechanical">
     <Button
+        style="@style/custombutton"
         android:id="@+id/mechpsc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PSC" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/mechairlines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Airlines" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/mechntc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

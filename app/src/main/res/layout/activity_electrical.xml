@@ -7,11 +7,13 @@
     android:orientation="vertical"
     tools:context=".Electrical">
     <Button
+        style="@style/custombutton"
         android:id="@+id/electricalnea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="NEA" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/electricalntc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

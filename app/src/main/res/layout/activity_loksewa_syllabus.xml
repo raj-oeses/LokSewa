@@ -8,50 +8,52 @@
     tools:context=".LoksewaSyllabus">
 
     <Button
-        style="@style/buttonstyle"
+        style="@style/custombutton"
         android:id="@+id/electronicsengineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Electronics Engineering" />
 
     <Button
+        style="@style/custombutton"
         android:id="@+id/CivilEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Civil Engineering"
         />
     <Button
+        style="@style/custombutton"
         android:id="@+id/ComputerEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Computer Engineering"
         />
     <Button
+        style="@style/custombutton"
         android:id="@+id/ElectricalEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Electrical Engineering"
         />
     <Button
+        style="@style/custombutton"
         android:id="@+id/ITEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="IT Engineering"
         />
     <Button
+        style="@style/custombutton"
         android:id="@+id/MechanicalEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mechanical Engineering"
         />
     <Button
+        style="@style/custombutton"
         android:id="@+id/AeronauticalEngineering"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aeronautical Engineering"
         />
-
-
-
-
 </LinearLayout>

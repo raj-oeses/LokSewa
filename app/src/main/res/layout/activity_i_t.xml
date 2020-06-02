@@ -7,16 +7,19 @@
     android:orientation="vertical"
     tools:context=".IT">
     <Button
+        style="@style/custombutton"
         android:id="@+id/itrbb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RBB" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/itnrb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="nrb" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/itnbl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

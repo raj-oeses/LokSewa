@@ -6,11 +6,13 @@
     android:orientation="vertical"
     tools:context=".Aeronautical">
     <Button
+        style="@style/custombutton"
         android:id="@+id/aerooe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Operations Engineer" />
     <Button
+        style="@style/custombutton"
         android:id="@+id/aerosto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
