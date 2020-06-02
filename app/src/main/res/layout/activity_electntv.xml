@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/background"
     tools:context=".Electntv">
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/electntv"
+    <Button
+        style="@style/custombutton"
+        android:id="@+id/assistanttechnician"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:text="Assistant Technician - level 4" />
+    <Button
+        style="@style/custombutton"
+        android:id="@+id/seniorassistanttechnician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senior Assistant Technician - level 5" />
+    <Button
+        style="@style/custombutton"
+        android:id="@+id/electronicengineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronic Engineer - level 7" />
 
-    </com.github.barteksc.pdfviewer.PDFView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

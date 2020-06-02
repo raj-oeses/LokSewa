@@ -15,6 +15,6 @@ public class Electairlines extends AppCompatActivity {
         setContentView(R.layout.activity_electairlines);
 
         PDFView airlines=findViewById(R.id.electairlines);
-        airlines.fromAsset("electairlines.pdf").load();
+        airlines.fromAsset("ElectronicsEngineer.pdf").load();
     }
 }

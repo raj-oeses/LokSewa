@@ -14,9 +14,9 @@ public class Electronics extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_electronics);
-        Button ntc=findViewById(R.id.ntc);
-        Button airlines=findViewById(R.id.arilines);
-        Button ntv=findViewById(R.id.ntv);
+        Button ntc=findViewById(R.id.electntc);
+        Button airlines=findViewById(R.id.electarilines);
+        Button ntv=findViewById(R.id.electntv);
 
         ntc.setOnClickListener(this);
         airlines.setOnClickListener(this);
@@ -26,20 +26,17 @@ public class Electronics extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.ntc:
+            case R.id.electntc:
                 Intent ntc=new Intent(this,Electntc.class);
                 startActivity(ntc);
-            case R.id.arilines:
+            case R.id.electarilines:
                 Intent airlines=new Intent(this,Electairlines.class);
                 startActivity(airlines);
                 break;
-            case R.id.ntv:
+            case R.id.electntv:
                 Intent ntv=new Intent(this,Electntv.class);
                 startActivity(ntv);
                 break;
-
-
         }
-
     }
 }

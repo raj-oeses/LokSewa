@@ -13,7 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Civiladbl"></activity>
+        <activity android:name=".Electntvasstech"></activity>
+        <activity android:name=".Electseniorasstech" />
+        <activity android:name=".Electntvelectteng" />
+        <activity android:name=".Electntcsecond" />
+        <activity android:name=".Electntcfirst" />
+        <activity android:name=".Civiladbl" />
         <activity android:name=".Civilnea" />
         <activity android:name=".Aerosto" />
         <activity android:name=".Aerooe" />
