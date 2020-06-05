@@ -37,7 +37,7 @@ class CustomListAdaptere extends BaseAdapter {
         View view;
         view=layoutInflater.inflate(R.layout.listlayout,null);
         TextView txt=view.findViewById(R.id.font);
-        txt.setText(names[position]);
+        txt.setText("\t"+names[position]);
 
         return view;
     }
